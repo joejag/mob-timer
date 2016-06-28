@@ -21,7 +21,7 @@ function createTimerWindow() {
     width: 200,
     height: 100,
     resizable: false,
-    alwaysOnTop: true,
+    alwaysOnTop: false,
     frame: false
   });
 
@@ -78,7 +78,7 @@ function onTimerEvent(event, data) {
   if (fullscreenWindow) {
     fullscreenWindow.webContents.send(event, data)
   }
-  if (event === 'alert' && data === 30) {
+  if (event === 'alert' && data === 0) {
     createFullscreenWindow()
   }
   if (event === 'stopAlerts') {

@@ -29,8 +29,8 @@ function startAlerts() {
   if (!alertInterval) {
     alertSeconds = 0
     alertInterval = setInterval(() => {
-      alertSeconds++
       callback('alert', alertSeconds)
+      alertSeconds++
     }, millisecondsPerSecond)
   }
 }
