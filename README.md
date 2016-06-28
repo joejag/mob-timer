@@ -1,3 +1,9 @@
+# A Fork of the Pluralsight Mob Timer
+
+The Pluralsight mob timer is quite excellent. But it assumes that you want to use a period of escallation before someone leaves the keyboard.
+
+This fork removes that escallation period, to support this it also removes the alawys on top behaviour.
+
 # Pluralsight Mob Timer
 A cross-platform timer built on [Electron](http://electron.atom.io/)
 for doing [Mob Programming](http://mobprogramming.org/)
