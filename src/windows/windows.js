@@ -12,7 +12,7 @@ exports.createTimerWindow = () => {
     width: 220,
     height: 90,
     resizable: false,
-    alwaysOnTop: true,
+    alwaysOnTop: false,
     frame: false
   });
 
